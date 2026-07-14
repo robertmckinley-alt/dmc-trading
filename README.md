@@ -20,27 +20,28 @@ statements and are unverified. This repo is educational. It is not financial adv
 
 ---
 
-## Current state of the simulation
+## Current state — the backtest is in, and it is not good
 
-Seeded with real daily SPY/QQQ bars (2026-04-30 → 2026-07-13), rules run forward:
+10 years, 10 instruments, 25,130 bars, **5,094 trades**. Full results: [BACKTEST-RESULTS.md](BACKTEST-RESULTS.md)
 
-| | |
+| Out-of-sample (2022→) | |
 |---|---|
-| Closed trades | **6** |
-| Win / loss | 1W / 5L |
-| Expectancy | **−0.50R** |
-| 95% CI on expectancy | **[−1.39R, +0.39R]** |
-| Equity | $197,653 from $200,000 |
-| Max drawdown | 2.31% (limit 10%) |
+| Trades | 2,524 |
+| Win rate | 33.0% |
+| Expectancy | **−0.160 R**, 95% CI [−0.226, −0.094] |
+| P(expectancy > 0) | **0.0%** |
+| Equity from $200k | **$24,042 (−88%)** |
+| Buy & hold SPY, same window | **+57%** |
 
-It lost money on this sample — and **six trades tells you nothing.** The confidence interval
-straddles zero: this is statistically indistinguishable from a coin flip. At the observed variance
-you would need roughly **300 trades** to resolve expectancy to ±0.10R.
+**The confidence interval excludes zero.** This is not "no edge found" — the mechanized rules have
+a statistically significant *negative* expectancy. It loses in bull, bear and chop. **0 of 9**
+parameter settings are profitable. Removing all costs still leaves it negative.
 
-The thresholds have **not** been tuned to make the curve look better. Tuning rules to fit past data
-is curve-fitting, and it is the most reliable way to lose real money later. The ugly number stays.
-
-Slippage and commissions are **not** modelled. Live results would be worse.
+**What this does not prove:** that discretionary DMC — human-chosen levels, confluence zones,
+selective entries, intraday — loses. The bot takes ~500 trades/year; a trader takes a handful.
+That gap is unbridgeable by code. But note that "the discretionary version works" is also the
+unfalsifiable defense of every system that fails a backtest, and it should be treated with the
+suspicion that implies.
 
 ---
 
