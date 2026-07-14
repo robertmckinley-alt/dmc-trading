@@ -220,7 +220,16 @@ new Chart(document.getElementById('hist'),{{type:'bar',data:{{labels:{j(buckets)
 new Chart(document.getElementById('dpl'),{{type:'bar',data:{{labels:{j(dp_lab)},datasets:[{{data:{j(dp_val)},backgroundColor:{j(['#3ddc84' if v>0 else '#ff5f6d' for v in dp_val])},borderRadius:4}}]}},options:{{plugins:{{legend:{{display:false}}}},scales:{{x:{{grid:{{display:false}},ticks:{{font:{{size:10}}}}}},y:{{grid:{{color:GRID}},ticks:{{callback:v=>'$'+v,font:{{size:10}}}}}}}}}}}});
 </script></body></html>"""
 
-out = os.path.join(HERE, "dmc-dashboard.html")
-open(out, "w").write(HTML)
-print(f"wrote {out}  ({len(HTML):,} bytes)")
+# write everywhere it needs to live: local, GitHub Pages (/docs), Vercel (root)
+REPO = os.path.dirname(HERE)
+targets = [os.path.join(HERE, "dmc-dashboard.html"),
+           os.path.join(REPO, "docs", "index.html"),
+           os.path.join(REPO, "index.html")]
+for out in targets:
+    try:
+        os.makedirs(os.path.dirname(out), exist_ok=True)
+        open(out, "w").write(HTML)
+        print(f"wrote {out}  ({len(HTML):,} bytes)")
+    except OSError as e:
+        print(f"skip {out}: {e}")
 print(f"verdict: {verdict} | n={n} | exp {exp:+.2f}R | CI [{ci_lo:+.2f},{ci_hi:+.2f}] | equity ${final:,.0f} | maxDD {maxdd:.2f}%")

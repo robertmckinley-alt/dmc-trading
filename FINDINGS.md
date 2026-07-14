@@ -64,3 +64,82 @@ as "no gap risk."
 - Nothing here is tuned, and nothing here should be tuned to look better.
 
 *Not financial advice. Simulated analysis only.*
+
+---
+
+# Part 2 — Payoff asymmetry: the test that decides it
+
+Part 1 showed hold rates near 50% everywhere. That does **not** condemn DMC — a coin flip is
+profitable if winners run further than losers cost, and DMC is *built* for that: tight stop just
+past the level, target at the next level. So the real question is whether the payoff asymmetry
+rescues the near-random directional accuracy.
+
+**Method.** For every gain: entry = next session's open, stop = far side of the level + 0.25×ATR
+(this defines 1R), then walk forward 15 bars. Measure MAE (heat taken) and MFE (what was actually
+on the table), and simulate fixed targets at 1R → 3R. Stop wins any tie.
+
+Reproduce: `python3 engine/payoff.py`
+
+## Expectancy (R per trade) at each fixed target
+
+| Symbol | N | 1.0R | 1.5R | 2.0R | 2.5R | 3.0R | med MFE | med MAE |
+|---|---|---|---|---|---|---|---|---|
+| SPY  | 25 | +0.17 | +0.35 | **+0.43** | +0.21 | +0.35 | 1.66 | −1.46 |
+| QQQ  | 28 | +0.04 | −0.03 | −0.14 | −0.21 | −0.36 | 1.00 | −1.69 |
+| NVDA | 30 | −0.07 | −0.11 | −0.07 | −0.09 | −0.14 | 1.95 | −2.37 |
+| TSLA | 25 | −0.42 | −0.57 | −0.54 | −0.66 | −0.66 | 0.81 | −1.37 |
+| JPM  | 24 | −0.14 | +0.02 | +0.09 | +0.14 | +0.05 | 1.05 | −0.97 |
+| **POOLED** | **132** | **−0.08** | **−0.07** | **−0.05** | **−0.13** | **−0.16** | **1.15** | **−1.54** |
+
+**Pooled expectancy is negative at every single target multiple.** There is no exit rule in this
+family that rescues it. The hypothesis — "the edge lives in the payoff asymmetry" — is **not
+supported**.
+
+## The number that explains why
+
+**Median MAE = −1.54R. Median MFE = +1.15R.**
+
+The *typical* gain goes further against you than it ever goes for you. The median trade takes more
+than a full R of heat — meaning the median trade is simply stopped out. There is no target you can
+place that collects money the market never offered.
+
+| Target | % of gains whose MFE ever reached it |
+|---|---|
+| 1.0R | 53.8% |
+| 1.5R | 43.2% |
+| 2.0R | 31.1% |
+| 3.0R | 22.7% |
+
+Only 31% of gains ever *touch* 2R. Aiming there means being wrong roughly 7 times out of 10.
+
+## But it is still not statistically conclusive
+
+Pooled at 2R: n=132, expectancy **−0.05R**, 95% CI **[−0.26, +0.16]**. **That straddles zero.**
+So: the point estimate is negative at every target, and the honest verdict is still
+*"no demonstrated edge"* rather than *"demonstrated to lose."* Those are different claims and
+the difference matters.
+
+SPY looks good (+0.43R at 2R). TSLA looks terrible (−0.54R). With n≈25 each, that spread is
+almost certainly noise. Do not go trade SPY on the strength of that cell.
+
+## Two traps in this table
+
+1. **"Best target = 2R" was chosen by looking at this data.** That is curve-fitting. It's an upper
+   bound on what you *could have* extracted, not an estimate of what you *will* extract.
+2. **No costs.** Slippage and commissions are not modelled. Every number above is optimistic.
+
+## Where this leaves DMC
+
+On daily bars, with levels defined as prior-day H/L/C, and stops/targets placed mechanically:
+**no edge is demonstrable, and the point estimates lean negative.**
+
+What this does **not** test — and what a fair evaluation would need:
+- Intraday timeframes, where DMC is often actually traded
+- Levels chosen by human judgment rather than "prior day H/L/C"
+- Discretionary filters: which levels matter, which closes are truly "decisive"
+- Confluence zones (HTF + LTF alignment), which DMC treats as the high-probability setups
+
+Those are exactly the subjective parts a backtest cannot reach. They may be where the edge lives.
+They may also be where the story lives. This data cannot tell you which.
+
+*Not financial advice. Simulated analysis only.*

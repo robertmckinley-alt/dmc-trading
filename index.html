@@ -1,0 +1,184 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<title>DMC Paper Trading — Live Tracker</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#0b0d12;color:#e6e9ef;font:14px/1.5 -apple-system,BlinkMacSystemFont,'Segoe UI',Inter,sans-serif}
+.wrap{max-width:1240px;margin:0 auto;padding:28px 20px 80px}
+h1{font-size:26px;margin:0 0 4px;letter-spacing:-.02em}
+.sub{color:#7c8698;font-size:13px;margin-bottom:22px}
+.banner{background:#1a1206;border:1px solid #7a4d0a;color:#f0b854;padding:12px 16px;border-radius:10px;margin-bottom:20px;font-size:13px}
+.banner b{color:#ffd489}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(168px,1fr));gap:12px;margin-bottom:20px}
+.card{background:#12151d;border:1px solid #1f2530;border-radius:12px;padding:14px 16px}
+.card .k{color:#7c8698;font-size:11px;text-transform:uppercase;letter-spacing:.07em}
+.card .v{font-size:24px;font-weight:600;margin-top:5px;letter-spacing:-.02em}
+.card .n{font-size:11px;color:#6b7486;margin-top:2px}
+.pos{color:#3ddc84} .neg{color:#ff5f6d} .warn{color:#f0b854} .mut{color:#7c8698}
+.panel{background:#12151d;border:1px solid #1f2530;border-radius:12px;padding:18px;margin-bottom:18px}
+.panel h2{font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:#7c8698;margin:0 0 14px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+@media(max-width:900px){.two{grid-template-columns:1fr}}
+table{width:100%;border-collapse:collapse;font-size:12.5px}
+th{text-align:left;color:#7c8698;font-weight:500;padding:8px 9px;border-bottom:1px solid #1f2530;font-size:11px;text-transform:uppercase;letter-spacing:.05em}
+td{padding:9px;border-bottom:1px solid #171b24}
+tr.win td.r,tr.win td.pl{color:#3ddc84;font-weight:600}
+tr.loss td.r,tr.loss td.pl{color:#ff5f6d;font-weight:600}
+tr.openrow{background:#0f1620} tr.openrow td{color:#8fa6c4}
+.sym{font-weight:600}
+.side{padding:2px 7px;border-radius:5px;font-size:10px;font-weight:700}
+.side.long{background:#0f3323;color:#3ddc84} .side.short{background:#33161a;color:#ff8a92}
+.lvl em{display:block;font-style:normal;color:#6b7486;font-size:10.5px}
+.verdict{font-size:22px;font-weight:700;letter-spacing:-.01em}
+.bar{height:7px;background:#1f2530;border-radius:4px;overflow:hidden;margin-top:7px}
+.bar i{display:block;height:100%;background:linear-gradient(90deg,#3ddc84,#26a5f5)}
+.ci{font-family:ui-monospace,Menlo,monospace;font-size:13px;color:#9fb0c9}
+ul.notes{margin:10px 0 0;padding-left:18px;color:#8e99ab;font-size:12.5px}
+ul.notes li{margin-bottom:5px}
+.foot{color:#5d6678;font-size:11.5px;text-align:center;margin-top:26px;line-height:1.7}
+</style></head><body><div class="wrap">
+
+<h1>DMC Paper Trading — Live Tracker</h1>
+<div class="sub">Simulated only · no broker connected · no real orders · generated 2026-07-14 02:40 UTC</div>
+
+<div class="banner">
+<b>Read this before you read the numbers.</b> DMC's rules are partly subjective — "significant level",
+"decisive close", "clean gain" are human judgment calls. This engine had to pin them to fixed thresholds
+to run at all. So these results test <b>one mechanization of DMC</b>, not the method as a skilled trader
+would apply it. A bad result here is not proof DMC fails; a good one is not proof it works.
+</div>
+
+<div class="grid">
+  <div class="card"><div class="k">Equity</div>
+    <div class="v neg">$197,653</div>
+    <div class="n">from $200,000 · -2,347</div></div>
+  <div class="card"><div class="k">Return</div>
+    <div class="v neg">-1.17%</div>
+    <div class="n">50 sessions</div></div>
+  <div class="card"><div class="k">Max Drawdown</div>
+    <div class="v ">2.31%</div>
+    <div class="n">limit 10.0% · now 1.97%</div></div>
+  <div class="card"><div class="k">Win Rate</div>
+    <div class="v">17%</div><div class="n">1W / 5L</div></div>
+  <div class="card"><div class="k">Expectancy</div>
+    <div class="v neg">-0.50R</div>
+    <div class="n">per trade</div></div>
+  <div class="card"><div class="k">Profit Factor</div>
+    <div class="v neg">0.40</div>
+    <div class="n">gross W / gross L</div></div>
+  <div class="card"><div class="k">Sample</div>
+    <div class="v warn">6</div>
+    <div class="n">closed trades</div></div>
+  <div class="card"><div class="k">Kill Switch</div>
+    <div class="v pos">ARMED</div>
+    <div class="n">floor $180,000</div></div>
+</div>
+
+<div class="panel">
+  <h2>Equity curve vs. drawdown floor</h2>
+  <canvas id="eq" height="94"></canvas>
+</div>
+
+<div class="two">
+  <div class="panel"><h2>Underwater (drawdown %)</h2><canvas id="dd" height="150"></canvas></div>
+  <div class="panel"><h2>R-multiple distribution</h2><canvas id="hist" height="150"></canvas></div>
+</div>
+
+<div class="two">
+  <div class="panel"><h2>Realized P/L by day</h2><canvas id="dpl" height="150"></canvas></div>
+  <div class="panel">
+    <h2>Viability — the honest read</h2>
+    <div class="verdict warn">NOT ENOUGH DATA</div>
+    <div class="bar"><i style="width:20%"></i></div>
+    <div class="n mut" style="margin-top:6px">6 of ~30 trades — the bare minimum before a win rate means anything at all.</div>
+    <ul class="notes">
+      <li>Expectancy <b>-0.50R</b>, 95% CI <span class="ci">[-1.39, +0.39]</span> per trade.</li>
+      <li>That interval straddles zero — the data cannot yet distinguish this from a coin flip.</li>
+      <li>To pin expectancy to ±0.10R with 95% confidence you would need roughly <b>480 trades</b> at the current variance.</li>
+      <li>A week of daily-timeframe signals produces a handful of trades. <b>One week cannot establish viability.</b> It can only establish whether the rules were followed.</li>
+      <li>DMC rule compliance across all trades: <b>100%</b> (stop on the far side of the level, target beyond the stop).</li>
+    </ul>
+  </div>
+</div>
+
+<div class="panel">
+  <h2>Trade log — 7 total (6 closed, 1 open)</h2>
+  <table><thead><tr>
+    <th>#</th><th>Sym</th><th>Side</th><th>Signal</th><th>Level gained</th><th>Entry</th>
+    <th>Stop</th><th>Target</th><th>R:R</th><th>Exit</th><th>Outcome</th><th>R</th><th>P/L</th>
+  </tr></thead><tbody><tr class="loss">
+      <td>1</td><td class="sym">QQQ</td>
+      <td><span class="side long">LONG</span></td>
+      <td>2026-05-26</td><td class="lvl">722.12<em>prior day high</em></td>
+      <td>732.96</td><td>719.19</td><td>760.5</td>
+      <td>2.0</td><td>719.19</td>
+      <td>stop hit</td><td class="r">-1.00</td><td class="pl">$-1,000</td></tr><tr class="loss">
+      <td>2</td><td class="sym">SPY</td>
+      <td><span class="side long">LONG</span></td>
+      <td>2026-05-28</td><td class="lvl">752.13<em>prior week high</em></td>
+      <td>755.9</td><td>750.4</td><td>766.91</td>
+      <td>2.0</td><td>750.4</td>
+      <td>stop hit</td><td class="r">-1.00</td><td class="pl">$-999</td></tr><tr class="win">
+      <td>3</td><td class="sym">SPY</td>
+      <td><span class="side short">SHORT</span></td>
+      <td>2026-06-05</td><td class="lvl">751.47<em>prior day low</em></td>
+      <td>743.36</td><td>753.26</td><td>723.57</td>
+      <td>2.0</td><td>723.57</td>
+      <td>target hit</td><td class="r">+2.00</td><td class="pl">$+1,980</td></tr><tr class="loss">
+      <td>4</td><td class="sym">QQQ</td>
+      <td><span class="side short">SHORT</span></td>
+      <td>2026-06-05</td><td class="lvl">732.62<em>prior day low</em></td>
+      <td>717.81</td><td>735.56</td><td>682.31</td>
+      <td>2.0</td><td>735.56</td>
+      <td>stop hit</td><td class="r">-1.00</td><td class="pl">$-990</td></tr><tr class="loss">
+      <td>5</td><td class="sym">SPY</td>
+      <td><span class="side long">LONG</span></td>
+      <td>2026-06-11</td><td class="lvl">725.43<em>prior day close</em></td>
+      <td>740.71</td><td>723.11</td><td>758.31</td>
+      <td>1.0</td><td>723.11</td>
+      <td>stop hit</td><td class="r">-1.00</td><td class="pl">$-1,000</td></tr><tr class="loss">
+      <td>6</td><td class="sym">QQQ</td>
+      <td><span class="side short">SHORT</span></td>
+      <td>2026-06-16</td><td class="lvl">737.38<em>prior day low</em></td>
+      <td>735.19</td><td>741.67</td><td>686.37</td>
+      <td>7.54</td><td>741.67</td>
+      <td>stop hit</td><td class="r">-1.00</td><td class="pl">$-996</td></tr><tr class="openrow">
+      <td>7</td><td class="sym">SPY</td>
+      <td><span class="side long">LONG</span></td>
+      <td>2026-06-30</td><td class="lvl">741.56<em>prior day high</em></td>
+      <td>745.0</td><td>738.77</td><td>757.47</td>
+      <td>2.0</td><td>—</td>
+      <td>open</td><td class="r">—</td><td class="pl">—</td></tr></tbody></table>
+</div>
+
+<div class="panel">
+  <h2>Run configuration</h2>
+  <ul class="notes">
+    <li>Starting equity <b>$200,000</b> · max drawdown <b>10.0%</b> (halt at $180,000) · risk <b>0.5%</b> per trade · max <b>4</b> concurrent · max <b>2.0%</b> open risk</li>
+    <li>Universe: <b>SPY, QQQ</b> · daily candles · levels from prior day + prior week H/L/C</li>
+    <li>Gain = close beyond a level when the prior close was not. Wicks never count. Decisive = body ≥ 50% of range.</li>
+    <li>Range-lock filter: |close − close[−10]| &lt; 0.75 × ATR(10) → stand aside.</li>
+    <li>Entry fills at the <b>next session's open</b>, never at the signal close. Stop = far side of the level + 0.25×ATR(14). Target = next level in the trade's direction.</li>
+    <li>If a bar spans both stop and target, the <b>stop</b> is taken. Slippage and commissions are <b>not</b> modelled — real results would be worse.</li>
+  </ul>
+</div>
+
+<div class="foot">
+  Simulated paper trading. No brokerage or exchange is connected. No real orders are placed and none can be.<br>
+  Not financial advice. Past simulated performance says nothing about future results.<br>
+  Win-rate claims in the original DMC source material are the creator's own and remain unverified.
+</div>
+</div>
+
+<script>
+const G='#7c8698', GRID='#1a1f29';
+Chart.defaults.color=G; Chart.defaults.borderColor=GRID; Chart.defaults.font.family='-apple-system,Segoe UI,sans-serif';
+new Chart(document.getElementById('eq'),{type:'line',data:{labels:["2026-04-30", "2026-05-01", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-08", "2026-06-09", "2026-06-10", "2026-06-11", "2026-06-12", "2026-06-15", "2026-06-16", "2026-06-17", "2026-06-18", "2026-06-22", "2026-06-23", "2026-06-24", "2026-06-25", "2026-06-26", "2026-06-29", "2026-06-30", "2026-07-01", "2026-07-02", "2026-07-06", "2026-07-07", "2026-07-08", "2026-07-09", "2026-07-10", "2026-07-13"],datasets:[
+ {label:'Equity',data:[200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 199745.07, 200191.74, 200493.95, 201189.98, 201625.52, 200515.48, 200771.83, 198000.59, 198511.81, 200537.07, 201325.8, 200018.87, 199842.58, 199792.73, 199536.99, 200952.78, 198337.32, 198203.77, 197589.44, 197570.11, 197630.35, 196994.43, 196994.43, 196994.43, 197114.52, 196959.66, 197986.79, 197422.66, 197057.63, 198054.74, 198566.73, 197653.37],borderColor:'#26a5f5',backgroundColor:'rgba(38,165,245,.10)',fill:true,tension:.25,pointRadius:0,borderWidth:2},
+ {label:'Start $200,000',data:[200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0, 200000.0],borderColor:'#3a4353',borderDash:[5,5],pointRadius:0,borderWidth:1,fill:false},
+ {label:'Halt floor',data:[180000.0, 180000.0, 180000.0, 180000.0, 180000.0, 180000.0, 180000.0, 180000.0, 180000.0, 180000.0, 180000.0, 180000.0, 180000.0, 180000.0, 180000.0, 180000.0, 180000.0, 180000.0, 180000.0, 180000.0, 180000.0, 180000.0, 180000.0, 180000.0, 180000.0, 180000.0, 180000.0, 180000.0, 180000.0, 180000.0, 180000.0, 180000.0, 180000.0, 180000.0, 180000.0, 180000.0, 180000.0, 180000.0, 180000.0, 180000.0, 180000.0, 180000.0, 180000.0, 180000.0, 180000.0, 180000.0, 180000.0, 180000.0, 180000.0, 180000.0],borderColor:'#ff5f6d',borderDash:[3,3],pointRadius:0,borderWidth:1,fill:false}
+]},options:{plugins:{legend:{labels:{boxWidth:10,font:{size:11}}}},scales:{x:{grid:{color:GRID},ticks:{maxTicksLimit:10,font:{size:10}}},y:{grid:{color:GRID},ticks:{callback:v=>'$'+(v/1000).toFixed(0)+'k',font:{size:10}}}}}});
+new Chart(document.getElementById('dd'),{type:'line',data:{labels:["2026-04-30", "2026-05-01", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-08", "2026-06-09", "2026-06-10", "2026-06-11", "2026-06-12", "2026-06-15", "2026-06-16", "2026-06-17", "2026-06-18", "2026-06-22", "2026-06-23", "2026-06-24", "2026-06-25", "2026-06-26", "2026-06-29", "2026-06-30", "2026-07-01", "2026-07-02", "2026-07-06", "2026-07-07", "2026-07-08", "2026-07-09", "2026-07-10", "2026-07-13"],datasets:[{label:'Drawdown %',data:[-0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.13, -0.0, -0.0, -0.0, -0.0, -0.55, -0.42, -1.8, -1.54, -0.54, -0.15, -0.8, -0.88, -0.91, -1.04, -0.33, -1.63, -1.7, -2.0, -2.01, -1.98, -2.3, -2.3, -2.3, -2.24, -2.31, -1.8, -2.08, -2.27, -1.77, -1.52, -1.97],borderColor:'#ff5f6d',backgroundColor:'rgba(255,95,109,.14)',fill:true,tension:.2,pointRadius:0,borderWidth:1.5}]},options:{plugins:{legend:{display:false}},scales:{x:{grid:{display:false},ticks:{maxTicksLimit:6,font:{size:10}}},y:{grid:{color:GRID},ticks:{callback:v=>v+'%',font:{size:10}}}}}});
+new Chart(document.getElementById('hist'),{type:'bar',data:{labels:["<-2", "-2..-1", "-1..0", "0..1", "1..2", ">2"],datasets:[{data:[0, 0, 5, 0, 1, 0],backgroundColor:['#ff5f6d','#ff8a92','#ffb3b8','#9fe6bf','#5fd99a','#3ddc84'],borderRadius:4}]},options:{plugins:{legend:{display:false}},scales:{x:{grid:{display:false},ticks:{font:{size:10}}},y:{grid:{color:GRID},ticks:{stepSize:1,font:{size:10}}}}}});
+new Chart(document.getElementById('dpl'),{type:'bar',data:{labels:["2026-06-05", "2026-06-09", "2026-06-15", "2026-06-18", "2026-06-26"],datasets:[{data:[-1999.41, 1979.79, -990.1, -995.65, -1000.21],backgroundColor:["#ff5f6d", "#3ddc84", "#ff5f6d", "#ff5f6d", "#ff5f6d"],borderRadius:4}]},options:{plugins:{legend:{display:false}},scales:{x:{grid:{display:false},ticks:{font:{size:10}}},y:{grid:{color:GRID},ticks:{callback:v=>'$'+v,font:{size:10}}}}}});
+</script></body></html>
