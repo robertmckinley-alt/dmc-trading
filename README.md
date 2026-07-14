@@ -45,6 +45,14 @@ suspicion that implies.
 
 ---
 
+## Research
+
+- [BACKTEST-RESULTS.md](BACKTEST-RESULTS.md) — mechanized DMC, 10y, 5,094 trades: significant negative expectancy
+- [FINDINGS.md](FINDINGS.md) — level-respect and payoff-asymmetry scans
+- [OVERNIGHT.md](OVERNIGHT.md) — the overnight effect: real anomaly, dead strategy
+- [OVERNIGHT-STOCKS.md](OVERNIGHT-STOCKS.md) — does it work on stocks? No, worse. Earnings decomposition.
+- [BACKTEST.md](BACKTEST.md) — how to backtest without fooling yourself
+
 ## Layout
 
 ```

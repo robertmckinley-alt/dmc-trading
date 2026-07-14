@@ -1,0 +1,3240 @@
+{
+ "AAPL": [
+  {
+   "date": "2026-04-30",
+   "when": "post-market"
+  },
+  {
+   "date": "2026-01-29",
+   "when": "post-market"
+  },
+  {
+   "date": "2025-10-30",
+   "when": "post-market"
+  },
+  {
+   "date": "2025-07-31",
+   "when": "post-market"
+  },
+  {
+   "date": "2025-05-01",
+   "when": "post-market"
+  },
+  {
+   "date": "2025-01-30",
+   "when": "post-market"
+  },
+  {
+   "date": "2024-10-31",
+   "when": "post-market"
+  },
+  {
+   "date": "2024-08-01",
+   "when": "post-market"
+  },
+  {
+   "date": "2024-05-02",
+   "when": "post-market"
+  },
+  {
+   "date": "2024-02-01",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-11-02",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-08-03",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-05-04",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-02-02",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-10-27",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-07-28",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-04-28",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-01-27",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-10-28",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-07-27",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-04-28",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-01-27",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-10-29",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-07-30",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-04-30",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-01-28",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-10-30",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-07-30",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-04-30",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-01-29",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-11-01",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-07-31",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-05-01",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-02-01",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-11-02",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-08-01",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-05-02",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-01-31",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-10-25",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-07-26",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-04-26",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-01-26",
+   "when": "post-market"
+  }
+ ],
+ "MSFT": [
+  {
+   "date": "2026-04-29",
+   "when": "post-market"
+  },
+  {
+   "date": "2026-01-28",
+   "when": "post-market"
+  },
+  {
+   "date": "2025-10-29",
+   "when": "post-market"
+  },
+  {
+   "date": "2025-07-30",
+   "when": "post-market"
+  },
+  {
+   "date": "2025-04-30",
+   "when": "post-market"
+  },
+  {
+   "date": "2025-01-29",
+   "when": "post-market"
+  },
+  {
+   "date": "2024-10-30",
+   "when": "post-market"
+  },
+  {
+   "date": "2024-07-30",
+   "when": "post-market"
+  },
+  {
+   "date": "2024-04-25",
+   "when": "post-market"
+  },
+  {
+   "date": "2024-01-30",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-10-24",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-07-25",
+   "when": "pre-market"
+  },
+  {
+   "date": "2023-04-25",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-01-24",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-10-25",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-07-26",
+   "when": "pre-market"
+  },
+  {
+   "date": "2022-04-26",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-01-25",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-10-26",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-07-27",
+   "when": "pre-market"
+  },
+  {
+   "date": "2021-04-27",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-01-26",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-10-27",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-07-22",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-04-29",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-01-29",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-10-23",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-07-18",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-04-24",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-01-30",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-10-24",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-07-19",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-04-26",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-01-31",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-10-26",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-07-20",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-04-27",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-01-26",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-10-20",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-07-19",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-04-21",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-01-28",
+   "when": "post-market"
+  }
+ ],
+ "GOOGL": [
+  {
+   "date": "2026-04-29",
+   "when": "post-market"
+  },
+  {
+   "date": "2026-02-04",
+   "when": "post-market"
+  },
+  {
+   "date": "2025-10-29",
+   "when": "post-market"
+  },
+  {
+   "date": "2025-07-23",
+   "when": "post-market"
+  },
+  {
+   "date": "2025-04-24",
+   "when": "post-market"
+  },
+  {
+   "date": "2025-02-04",
+   "when": "post-market"
+  },
+  {
+   "date": "2024-10-29",
+   "when": "post-market"
+  },
+  {
+   "date": "2024-07-23",
+   "when": "post-market"
+  },
+  {
+   "date": "2024-04-25",
+   "when": "post-market"
+  },
+  {
+   "date": "2024-01-30",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-10-24",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-07-25",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-04-25",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-02-02",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-10-25",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-07-26",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-04-26",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-02-01",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-10-26",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-07-27",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-04-27",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-02-02",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-10-29",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-07-30",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-04-28",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-02-03",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-10-28",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-07-25",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-04-29",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-02-04",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-10-25",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-07-23",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-04-23",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-02-01",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-10-26",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-07-24",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-04-27",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-01-26",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-10-27",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-07-28",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-04-21",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-02-01",
+   "when": "post-market"
+  }
+ ],
+ "AMZN": [
+  {
+   "date": "2026-04-29",
+   "when": "post-market"
+  },
+  {
+   "date": "2026-02-05",
+   "when": "post-market"
+  },
+  {
+   "date": "2025-10-30",
+   "when": "post-market"
+  },
+  {
+   "date": "2025-07-31",
+   "when": "post-market"
+  },
+  {
+   "date": "2025-05-01",
+   "when": "post-market"
+  },
+  {
+   "date": "2025-02-06",
+   "when": "pre-market"
+  },
+  {
+   "date": "2024-10-31",
+   "when": "post-market"
+  },
+  {
+   "date": "2024-08-01",
+   "when": "post-market"
+  },
+  {
+   "date": "2024-04-30",
+   "when": "post-market"
+  },
+  {
+   "date": "2024-02-01",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-10-26",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-08-03",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-04-27",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-02-02",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-10-27",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-07-28",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-04-28",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-02-03",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-10-28",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-07-29",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-04-29",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-02-02",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-10-29",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-07-30",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-04-30",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-01-30",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-10-24",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-07-25",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-04-25",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-01-31",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-10-25",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-07-26",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-04-26",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-02-01",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-10-26",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-07-27",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-04-27",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-02-02",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-10-27",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-07-28",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-04-28",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-01-28",
+   "when": "post-market"
+  }
+ ],
+ "META": [
+  {
+   "date": "2026-04-29",
+   "when": "post-market"
+  },
+  {
+   "date": "2026-01-28",
+   "when": "post-market"
+  },
+  {
+   "date": "2025-10-29",
+   "when": "post-market"
+  },
+  {
+   "date": "2025-07-30",
+   "when": "post-market"
+  },
+  {
+   "date": "2025-04-30",
+   "when": "post-market"
+  },
+  {
+   "date": "2025-01-29",
+   "when": "post-market"
+  },
+  {
+   "date": "2024-10-30",
+   "when": "post-market"
+  },
+  {
+   "date": "2024-07-31",
+   "when": "post-market"
+  },
+  {
+   "date": "2024-04-24",
+   "when": "post-market"
+  },
+  {
+   "date": "2024-02-01",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-10-25",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-07-26",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-04-26",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-02-01",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-10-26",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-07-27",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-04-27",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-02-02",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-10-25",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-07-28",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-04-28",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-01-27",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-10-29",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-07-30",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-04-29",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-01-29",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-10-30",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-07-24",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-04-24",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-01-30",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-10-30",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-07-25",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-04-25",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-01-31",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-11-01",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-07-26",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-05-03",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-02-01",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-11-02",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-07-27",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-04-27",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-01-27",
+   "when": "post-market"
+  }
+ ],
+ "NVDA": [
+  {
+   "date": "2026-05-20",
+   "when": "post-market"
+  },
+  {
+   "date": "2026-02-25",
+   "when": "post-market"
+  },
+  {
+   "date": "2025-11-19",
+   "when": "post-market"
+  },
+  {
+   "date": "2025-08-27",
+   "when": "post-market"
+  },
+  {
+   "date": "2025-05-28",
+   "when": "post-market"
+  },
+  {
+   "date": "2025-02-26",
+   "when": "post-market"
+  },
+  {
+   "date": "2024-11-20",
+   "when": "post-market"
+  },
+  {
+   "date": "2024-08-28",
+   "when": "post-market"
+  },
+  {
+   "date": "2024-05-22",
+   "when": "post-market"
+  },
+  {
+   "date": "2024-02-21",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-11-21",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-08-23",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-05-24",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-02-22",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-11-16",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-08-24",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-05-25",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-02-16",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-11-17",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-08-18",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-05-26",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-02-24",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-11-18",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-08-19",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-05-21",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-02-13",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-11-14",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-08-15",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-05-16",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-02-14",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-11-15",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-08-16",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-05-10",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-02-08",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-11-09",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-08-10",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-05-09",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-02-09",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-11-10",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-08-11",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-05-12",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-02-17",
+   "when": "post-market"
+  }
+ ],
+ "TSLA": [
+  {
+   "date": "2026-04-22",
+   "when": "post-market"
+  },
+  {
+   "date": "2026-01-28",
+   "when": "post-market"
+  },
+  {
+   "date": "2025-10-22",
+   "when": "post-market"
+  },
+  {
+   "date": "2025-07-23",
+   "when": "post-market"
+  },
+  {
+   "date": "2025-04-22",
+   "when": "post-market"
+  },
+  {
+   "date": "2025-01-29",
+   "when": "post-market"
+  },
+  {
+   "date": "2024-10-23",
+   "when": "post-market"
+  },
+  {
+   "date": "2024-07-23",
+   "when": "post-market"
+  },
+  {
+   "date": "2024-04-23",
+   "when": "post-market"
+  },
+  {
+   "date": "2024-01-24",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-10-18",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-07-19",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-04-19",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-01-25",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-10-19",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-07-20",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-04-20",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-01-26",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-10-20",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-07-26",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-04-26",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-01-27",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-10-21",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-07-22",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-04-29",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-01-29",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-10-23",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-07-24",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-04-24",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-01-30",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-10-24",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-08-01",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-05-02",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-02-07",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-11-01",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-08-02",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-05-03",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-02-22",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-10-26",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-08-03",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-05-04",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-02-10",
+   "when": "post-market"
+  }
+ ],
+ "AMD": [
+  {
+   "date": "2026-05-05",
+   "when": "post-market"
+  },
+  {
+   "date": "2026-02-03",
+   "when": "post-market"
+  },
+  {
+   "date": "2025-11-04",
+   "when": "post-market"
+  },
+  {
+   "date": "2025-08-05",
+   "when": "post-market"
+  },
+  {
+   "date": "2025-05-06",
+   "when": "post-market"
+  },
+  {
+   "date": "2025-02-04",
+   "when": "post-market"
+  },
+  {
+   "date": "2024-10-29",
+   "when": "post-market"
+  },
+  {
+   "date": "2024-07-30",
+   "when": "post-market"
+  },
+  {
+   "date": "2024-04-30",
+   "when": "post-market"
+  },
+  {
+   "date": "2024-01-30",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-10-31",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-08-01",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-05-02",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-01-31",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-11-01",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-08-02",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-05-03",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-02-01",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-10-26",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-07-27",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-04-27",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-01-26",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-10-27",
+   "when": "pre-market"
+  },
+  {
+   "date": "2020-07-28",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-04-28",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-01-28",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-10-29",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-07-30",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-04-30",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-01-29",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-10-24",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-07-25",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-04-25",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-01-30",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-10-24",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-07-25",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-05-01",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-01-31",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-10-20",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-07-21",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-04-21",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-01-19",
+   "when": "post-market"
+  }
+ ],
+ "NFLX": [
+  {
+   "date": "2026-04-16",
+   "when": "post-market"
+  },
+  {
+   "date": "2026-01-20",
+   "when": "post-market"
+  },
+  {
+   "date": "2025-10-21",
+   "when": "post-market"
+  },
+  {
+   "date": "2025-07-17",
+   "when": "post-market"
+  },
+  {
+   "date": "2025-04-17",
+   "when": "post-market"
+  },
+  {
+   "date": "2025-01-21",
+   "when": "post-market"
+  },
+  {
+   "date": "2024-10-17",
+   "when": "post-market"
+  },
+  {
+   "date": "2024-07-18",
+   "when": "post-market"
+  },
+  {
+   "date": "2024-04-18",
+   "when": "post-market"
+  },
+  {
+   "date": "2024-01-23",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-10-18",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-07-19",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-04-18",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-01-19",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-10-18",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-07-19",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-04-19",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-01-20",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-10-19",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-07-20",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-04-20",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-01-19",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-10-20",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-07-16",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-04-21",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-01-21",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-10-16",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-07-17",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-04-16",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-01-17",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-10-16",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-07-16",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-04-16",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-01-22",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-10-16",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-07-17",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-04-17",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-01-18",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-10-17",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-07-18",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-04-18",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-01-19",
+   "when": "post-market"
+  }
+ ],
+ "INTC": [
+  {
+   "date": "2026-04-23",
+   "when": "post-market"
+  },
+  {
+   "date": "2026-01-22",
+   "when": "post-market"
+  },
+  {
+   "date": "2025-10-23",
+   "when": "post-market"
+  },
+  {
+   "date": "2025-07-24",
+   "when": "post-market"
+  },
+  {
+   "date": "2025-04-24",
+   "when": "post-market"
+  },
+  {
+   "date": "2025-01-30",
+   "when": "post-market"
+  },
+  {
+   "date": "2024-10-31",
+   "when": "post-market"
+  },
+  {
+   "date": "2024-08-01",
+   "when": "post-market"
+  },
+  {
+   "date": "2024-04-25",
+   "when": "post-market"
+  },
+  {
+   "date": "2024-01-25",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-10-26",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-07-27",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-04-27",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-01-26",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-10-27",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-07-28",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-04-28",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-01-26",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-10-21",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-07-22",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-04-22",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-01-21",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-10-22",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-07-23",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-04-23",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-01-23",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-10-24",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-07-25",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-04-25",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-01-24",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-10-25",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-07-26",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-04-26",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-01-25",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-10-26",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-07-27",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-04-27",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-01-26",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-10-18",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-07-20",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-04-19",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-01-14",
+   "when": "post-market"
+  }
+ ],
+ "CRM": [
+  {
+   "date": "2026-05-27",
+   "when": "post-market"
+  },
+  {
+   "date": "2026-02-25",
+   "when": "post-market"
+  },
+  {
+   "date": "2025-12-03",
+   "when": "post-market"
+  },
+  {
+   "date": "2025-09-03",
+   "when": "post-market"
+  },
+  {
+   "date": "2025-05-28",
+   "when": "post-market"
+  },
+  {
+   "date": "2025-02-26",
+   "when": "post-market"
+  },
+  {
+   "date": "2024-12-03",
+   "when": "post-market"
+  },
+  {
+   "date": "2024-08-28",
+   "when": "post-market"
+  },
+  {
+   "date": "2024-05-29",
+   "when": "post-market"
+  },
+  {
+   "date": "2024-02-28",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-11-29",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-08-30",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-05-31",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-03-01",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-11-30",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-08-24",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-05-31",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-03-01",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-11-30",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-08-25",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-05-27",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-02-25",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-12-01",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-08-25",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-05-28",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-02-25",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-12-03",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-08-22",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-06-04",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-03-04",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-11-27",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-08-29",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-05-29",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-02-28",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-11-21",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-08-22",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-05-18",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-02-28",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-11-17",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-08-31",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-05-18",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-02-24",
+   "when": "post-market"
+  }
+ ],
+ "ORCL": [
+  {
+   "date": "2026-06-10",
+   "when": "post-market"
+  },
+  {
+   "date": "2026-03-10",
+   "when": "post-market"
+  },
+  {
+   "date": "2025-12-10",
+   "when": "post-market"
+  },
+  {
+   "date": "2025-09-09",
+   "when": "post-market"
+  },
+  {
+   "date": "2025-06-11",
+   "when": "post-market"
+  },
+  {
+   "date": "2025-03-10",
+   "when": "post-market"
+  },
+  {
+   "date": "2024-12-09",
+   "when": "post-market"
+  },
+  {
+   "date": "2024-09-09",
+   "when": "post-market"
+  },
+  {
+   "date": "2024-06-11",
+   "when": "post-market"
+  },
+  {
+   "date": "2024-03-11",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-12-11",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-09-11",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-06-12",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-03-09",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-12-12",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-09-12",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-06-13",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-03-10",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-12-09",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-09-13",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-06-15",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-03-10",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-12-10",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-09-10",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-06-16",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-03-12",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-12-12",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-09-11",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-06-19",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-03-14",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-12-17",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-09-17",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-06-19",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-03-19",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-12-14",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-09-14",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-06-21",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-03-15",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-12-15",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-09-15",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-06-16",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-03-15",
+   "when": "post-market"
+  }
+ ],
+ "JPM": [
+  {
+   "date": "2026-07-14",
+   "when": "pre-market"
+  },
+  {
+   "date": "2026-04-14",
+   "when": "pre-market"
+  },
+  {
+   "date": "2026-01-13",
+   "when": "pre-market"
+  },
+  {
+   "date": "2025-10-14",
+   "when": "pre-market"
+  },
+  {
+   "date": "2025-07-15",
+   "when": "pre-market"
+  },
+  {
+   "date": "2025-04-11",
+   "when": "pre-market"
+  },
+  {
+   "date": "2025-01-15",
+   "when": "pre-market"
+  },
+  {
+   "date": "2024-10-11",
+   "when": "pre-market"
+  },
+  {
+   "date": "2024-07-12",
+   "when": "pre-market"
+  },
+  {
+   "date": "2024-04-12",
+   "when": "pre-market"
+  },
+  {
+   "date": "2024-01-12",
+   "when": "pre-market"
+  },
+  {
+   "date": "2023-10-13",
+   "when": "pre-market"
+  },
+  {
+   "date": "2023-07-14",
+   "when": "pre-market"
+  },
+  {
+   "date": "2023-04-14",
+   "when": "pre-market"
+  },
+  {
+   "date": "2023-01-13",
+   "when": "pre-market"
+  },
+  {
+   "date": "2022-10-14",
+   "when": "pre-market"
+  },
+  {
+   "date": "2022-07-14",
+   "when": "pre-market"
+  },
+  {
+   "date": "2022-04-13",
+   "when": "pre-market"
+  },
+  {
+   "date": "2022-01-14",
+   "when": "pre-market"
+  },
+  {
+   "date": "2021-10-13",
+   "when": "pre-market"
+  },
+  {
+   "date": "2021-07-13",
+   "when": "pre-market"
+  },
+  {
+   "date": "2021-04-14",
+   "when": "pre-market"
+  },
+  {
+   "date": "2021-01-15",
+   "when": "pre-market"
+  },
+  {
+   "date": "2020-10-13",
+   "when": "pre-market"
+  },
+  {
+   "date": "2020-07-14",
+   "when": "pre-market"
+  },
+  {
+   "date": "2020-04-14",
+   "when": "pre-market"
+  },
+  {
+   "date": "2020-01-14",
+   "when": "pre-market"
+  },
+  {
+   "date": "2019-10-15",
+   "when": "pre-market"
+  },
+  {
+   "date": "2019-07-16",
+   "when": "pre-market"
+  },
+  {
+   "date": "2019-04-12",
+   "when": "pre-market"
+  },
+  {
+   "date": "2019-02-26",
+   "when": "pre-market"
+  },
+  {
+   "date": "2018-10-12",
+   "when": "pre-market"
+  },
+  {
+   "date": "2018-07-13",
+   "when": "pre-market"
+  },
+  {
+   "date": "2018-04-13",
+   "when": "pre-market"
+  },
+  {
+   "date": "2018-01-12",
+   "when": "pre-market"
+  },
+  {
+   "date": "2017-10-12",
+   "when": "pre-market"
+  },
+  {
+   "date": "2017-07-14",
+   "when": "pre-market"
+  },
+  {
+   "date": "2017-04-13",
+   "when": "pre-market"
+  },
+  {
+   "date": "2017-01-13",
+   "when": "pre-market"
+  },
+  {
+   "date": "2016-10-14",
+   "when": "pre-market"
+  },
+  {
+   "date": "2016-07-14",
+   "when": "pre-market"
+  },
+  {
+   "date": "2016-04-13",
+   "when": "pre-market"
+  },
+  {
+   "date": "2016-01-14",
+   "when": "pre-market"
+  }
+ ],
+ "GS": [
+  {
+   "date": "2026-07-14",
+   "when": "pre-market"
+  },
+  {
+   "date": "2026-04-13",
+   "when": "pre-market"
+  },
+  {
+   "date": "2026-01-15",
+   "when": "pre-market"
+  },
+  {
+   "date": "2025-10-14",
+   "when": "pre-market"
+  },
+  {
+   "date": "2025-07-16",
+   "when": "pre-market"
+  },
+  {
+   "date": "2025-04-14",
+   "when": "pre-market"
+  },
+  {
+   "date": "2025-01-15",
+   "when": "pre-market"
+  },
+  {
+   "date": "2024-10-15",
+   "when": "pre-market"
+  },
+  {
+   "date": "2024-07-15",
+   "when": "pre-market"
+  },
+  {
+   "date": "2024-04-15",
+   "when": "pre-market"
+  },
+  {
+   "date": "2024-01-16",
+   "when": "pre-market"
+  },
+  {
+   "date": "2023-10-17",
+   "when": "pre-market"
+  },
+  {
+   "date": "2023-07-19",
+   "when": "pre-market"
+  },
+  {
+   "date": "2023-04-18",
+   "when": "pre-market"
+  },
+  {
+   "date": "2023-01-17",
+   "when": "pre-market"
+  },
+  {
+   "date": "2022-10-18",
+   "when": "pre-market"
+  },
+  {
+   "date": "2022-07-18",
+   "when": "pre-market"
+  },
+  {
+   "date": "2022-04-14",
+   "when": "pre-market"
+  },
+  {
+   "date": "2022-01-18",
+   "when": "pre-market"
+  },
+  {
+   "date": "2021-10-15",
+   "when": "pre-market"
+  },
+  {
+   "date": "2021-07-13",
+   "when": "pre-market"
+  },
+  {
+   "date": "2021-04-14",
+   "when": "pre-market"
+  },
+  {
+   "date": "2021-01-19",
+   "when": "pre-market"
+  },
+  {
+   "date": "2020-10-14",
+   "when": "pre-market"
+  },
+  {
+   "date": "2020-07-15",
+   "when": "pre-market"
+  },
+  {
+   "date": "2020-04-15",
+   "when": "pre-market"
+  },
+  {
+   "date": "2020-01-15",
+   "when": "pre-market"
+  },
+  {
+   "date": "2019-10-15",
+   "when": "pre-market"
+  },
+  {
+   "date": "2019-07-16",
+   "when": "pre-market"
+  },
+  {
+   "date": "2019-04-15",
+   "when": "pre-market"
+  },
+  {
+   "date": "2019-01-16",
+   "when": "pre-market"
+  },
+  {
+   "date": "2018-10-16",
+   "when": "pre-market"
+  },
+  {
+   "date": "2018-07-17",
+   "when": "pre-market"
+  },
+  {
+   "date": "2018-04-17",
+   "when": "pre-market"
+  },
+  {
+   "date": "2018-01-17",
+   "when": "pre-market"
+  },
+  {
+   "date": "2017-10-17",
+   "when": "pre-market"
+  },
+  {
+   "date": "2017-07-18",
+   "when": "pre-market"
+  },
+  {
+   "date": "2017-04-18",
+   "when": "pre-market"
+  },
+  {
+   "date": "2017-01-18",
+   "when": "pre-market"
+  },
+  {
+   "date": "2016-10-18",
+   "when": "pre-market"
+  },
+  {
+   "date": "2016-07-19",
+   "when": "pre-market"
+  },
+  {
+   "date": "2016-04-19",
+   "when": "pre-market"
+  },
+  {
+   "date": "2016-01-20",
+   "when": "pre-market"
+  }
+ ],
+ "WMT": [
+  {
+   "date": "2026-05-21",
+   "when": "pre-market"
+  },
+  {
+   "date": "2026-02-19",
+   "when": "pre-market"
+  },
+  {
+   "date": "2025-11-20",
+   "when": "pre-market"
+  },
+  {
+   "date": "2025-08-21",
+   "when": "pre-market"
+  },
+  {
+   "date": "2025-05-15",
+   "when": "pre-market"
+  },
+  {
+   "date": "2025-02-20",
+   "when": "pre-market"
+  },
+  {
+   "date": "2024-11-19",
+   "when": "pre-market"
+  },
+  {
+   "date": "2024-08-15",
+   "when": "pre-market"
+  },
+  {
+   "date": "2024-05-16",
+   "when": "pre-market"
+  },
+  {
+   "date": "2024-02-20",
+   "when": "pre-market"
+  },
+  {
+   "date": "2023-11-16",
+   "when": "pre-market"
+  },
+  {
+   "date": "2023-08-17",
+   "when": "pre-market"
+  },
+  {
+   "date": "2023-05-18",
+   "when": "pre-market"
+  },
+  {
+   "date": "2023-02-21",
+   "when": "pre-market"
+  },
+  {
+   "date": "2022-11-15",
+   "when": "pre-market"
+  },
+  {
+   "date": "2022-08-16",
+   "when": "pre-market"
+  },
+  {
+   "date": "2022-05-17",
+   "when": "pre-market"
+  },
+  {
+   "date": "2022-02-17",
+   "when": "pre-market"
+  },
+  {
+   "date": "2021-11-16",
+   "when": "pre-market"
+  },
+  {
+   "date": "2021-08-17",
+   "when": "pre-market"
+  },
+  {
+   "date": "2021-05-18",
+   "when": "pre-market"
+  },
+  {
+   "date": "2021-02-18",
+   "when": "pre-market"
+  },
+  {
+   "date": "2020-11-17",
+   "when": "pre-market"
+  },
+  {
+   "date": "2020-08-18",
+   "when": "pre-market"
+  },
+  {
+   "date": "2020-05-19",
+   "when": "pre-market"
+  },
+  {
+   "date": "2020-02-18",
+   "when": "pre-market"
+  },
+  {
+   "date": "2019-11-14",
+   "when": "pre-market"
+  },
+  {
+   "date": "2019-08-15",
+   "when": "pre-market"
+  },
+  {
+   "date": "2019-05-16",
+   "when": "pre-market"
+  },
+  {
+   "date": "2019-03-28",
+   "when": "pre-market"
+  },
+  {
+   "date": "2018-11-15",
+   "when": "pre-market"
+  },
+  {
+   "date": "2018-08-16",
+   "when": "pre-market"
+  },
+  {
+   "date": "2018-05-17",
+   "when": "pre-market"
+  },
+  {
+   "date": "2018-03-30",
+   "when": "pre-market"
+  },
+  {
+   "date": "2017-11-16",
+   "when": "pre-market"
+  },
+  {
+   "date": "2017-08-17",
+   "when": "pre-market"
+  },
+  {
+   "date": "2017-05-18",
+   "when": "pre-market"
+  },
+  {
+   "date": "2017-03-31",
+   "when": "pre-market"
+  },
+  {
+   "date": "2016-11-17",
+   "when": "pre-market"
+  },
+  {
+   "date": "2016-08-18",
+   "when": "pre-market"
+  },
+  {
+   "date": "2016-05-19",
+   "when": "pre-market"
+  },
+  {
+   "date": "2016-03-30",
+   "when": "pre-market"
+  }
+ ],
+ "JNJ": [
+  {
+   "date": "2026-04-14",
+   "when": "pre-market"
+  },
+  {
+   "date": "2026-01-21",
+   "when": "pre-market"
+  },
+  {
+   "date": "2025-10-14",
+   "when": "pre-market"
+  },
+  {
+   "date": "2025-07-16",
+   "when": "pre-market"
+  },
+  {
+   "date": "2025-04-15",
+   "when": "pre-market"
+  },
+  {
+   "date": "2025-01-22",
+   "when": "pre-market"
+  },
+  {
+   "date": "2024-10-15",
+   "when": "pre-market"
+  },
+  {
+   "date": "2024-07-17",
+   "when": "pre-market"
+  },
+  {
+   "date": "2024-04-16",
+   "when": "pre-market"
+  },
+  {
+   "date": "2024-01-23",
+   "when": "pre-market"
+  },
+  {
+   "date": "2023-10-17",
+   "when": "pre-market"
+  },
+  {
+   "date": "2023-07-20",
+   "when": "pre-market"
+  },
+  {
+   "date": "2023-04-18",
+   "when": "pre-market"
+  },
+  {
+   "date": "2023-01-24",
+   "when": "pre-market"
+  },
+  {
+   "date": "2022-10-18",
+   "when": "pre-market"
+  },
+  {
+   "date": "2022-07-19",
+   "when": "pre-market"
+  },
+  {
+   "date": "2022-04-19",
+   "when": "pre-market"
+  },
+  {
+   "date": "2022-01-25",
+   "when": "pre-market"
+  },
+  {
+   "date": "2021-10-19",
+   "when": "pre-market"
+  },
+  {
+   "date": "2021-07-21",
+   "when": "pre-market"
+  },
+  {
+   "date": "2021-04-20",
+   "when": "pre-market"
+  },
+  {
+   "date": "2021-01-26",
+   "when": "pre-market"
+  },
+  {
+   "date": "2020-10-13",
+   "when": "pre-market"
+  },
+  {
+   "date": "2020-07-16",
+   "when": "pre-market"
+  },
+  {
+   "date": "2020-04-14",
+   "when": "pre-market"
+  },
+  {
+   "date": "2020-01-22",
+   "when": "pre-market"
+  },
+  {
+   "date": "2019-10-15",
+   "when": "pre-market"
+  },
+  {
+   "date": "2019-07-16",
+   "when": "pre-market"
+  },
+  {
+   "date": "2019-04-16",
+   "when": "pre-market"
+  },
+  {
+   "date": "2019-01-22",
+   "when": "pre-market"
+  },
+  {
+   "date": "2018-10-16",
+   "when": "pre-market"
+  },
+  {
+   "date": "2018-07-17",
+   "when": "pre-market"
+  },
+  {
+   "date": "2018-04-17",
+   "when": "pre-market"
+  },
+  {
+   "date": "2018-01-23",
+   "when": "pre-market"
+  },
+  {
+   "date": "2017-10-17",
+   "when": "pre-market"
+  },
+  {
+   "date": "2017-07-18",
+   "when": "pre-market"
+  },
+  {
+   "date": "2017-04-18",
+   "when": "pre-market"
+  },
+  {
+   "date": "2017-01-24",
+   "when": "pre-market"
+  },
+  {
+   "date": "2016-10-18",
+   "when": "pre-market"
+  },
+  {
+   "date": "2016-07-19",
+   "when": "pre-market"
+  },
+  {
+   "date": "2016-04-19",
+   "when": "pre-market"
+  },
+  {
+   "date": "2016-01-26",
+   "when": "pre-market"
+  }
+ ],
+ "PG": [
+  {
+   "date": "2026-04-24",
+   "when": "pre-market"
+  },
+  {
+   "date": "2026-01-22",
+   "when": "pre-market"
+  },
+  {
+   "date": "2025-10-24",
+   "when": "pre-market"
+  },
+  {
+   "date": "2025-07-29",
+   "when": "pre-market"
+  },
+  {
+   "date": "2025-04-24",
+   "when": "pre-market"
+  },
+  {
+   "date": "2025-01-22",
+   "when": "pre-market"
+  },
+  {
+   "date": "2024-10-18",
+   "when": "pre-market"
+  },
+  {
+   "date": "2024-07-30",
+   "when": "pre-market"
+  },
+  {
+   "date": "2024-04-19",
+   "when": "pre-market"
+  },
+  {
+   "date": "2024-01-23",
+   "when": "pre-market"
+  },
+  {
+   "date": "2023-10-18",
+   "when": "pre-market"
+  },
+  {
+   "date": "2023-07-28",
+   "when": "pre-market"
+  },
+  {
+   "date": "2023-04-21",
+   "when": "pre-market"
+  },
+  {
+   "date": "2023-01-19",
+   "when": "pre-market"
+  },
+  {
+   "date": "2022-10-19",
+   "when": "pre-market"
+  },
+  {
+   "date": "2022-07-29",
+   "when": "pre-market"
+  },
+  {
+   "date": "2022-04-20",
+   "when": "pre-market"
+  },
+  {
+   "date": "2022-01-19",
+   "when": "pre-market"
+  },
+  {
+   "date": "2021-10-19",
+   "when": "pre-market"
+  },
+  {
+   "date": "2021-07-30",
+   "when": "pre-market"
+  },
+  {
+   "date": "2021-04-20",
+   "when": "pre-market"
+  },
+  {
+   "date": "2021-01-20",
+   "when": "pre-market"
+  },
+  {
+   "date": "2020-10-20",
+   "when": "pre-market"
+  },
+  {
+   "date": "2020-07-30",
+   "when": "pre-market"
+  },
+  {
+   "date": "2020-04-17",
+   "when": "pre-market"
+  },
+  {
+   "date": "2020-01-23",
+   "when": "pre-market"
+  },
+  {
+   "date": "2019-10-22",
+   "when": "pre-market"
+  },
+  {
+   "date": "2019-07-30",
+   "when": "pre-market"
+  },
+  {
+   "date": "2019-04-23",
+   "when": "pre-market"
+  },
+  {
+   "date": "2019-01-23",
+   "when": "pre-market"
+  },
+  {
+   "date": "2018-10-19",
+   "when": "pre-market"
+  },
+  {
+   "date": "2018-07-31",
+   "when": "pre-market"
+  },
+  {
+   "date": "2018-04-19",
+   "when": "pre-market"
+  },
+  {
+   "date": "2018-01-23",
+   "when": "pre-market"
+  },
+  {
+   "date": "2017-10-20",
+   "when": "pre-market"
+  },
+  {
+   "date": "2017-07-27",
+   "when": "pre-market"
+  },
+  {
+   "date": "2017-04-26",
+   "when": "pre-market"
+  },
+  {
+   "date": "2017-01-20",
+   "when": "pre-market"
+  },
+  {
+   "date": "2016-10-25",
+   "when": "pre-market"
+  },
+  {
+   "date": "2016-08-02",
+   "when": "pre-market"
+  },
+  {
+   "date": "2016-04-26",
+   "when": "pre-market"
+  },
+  {
+   "date": "2016-01-26",
+   "when": "pre-market"
+  }
+ ],
+ "KO": [
+  {
+   "date": "2026-04-28",
+   "when": "pre-market"
+  },
+  {
+   "date": "2026-02-10",
+   "when": "pre-market"
+  },
+  {
+   "date": "2025-10-21",
+   "when": "pre-market"
+  },
+  {
+   "date": "2025-07-22",
+   "when": "pre-market"
+  },
+  {
+   "date": "2025-04-29",
+   "when": "pre-market"
+  },
+  {
+   "date": "2025-02-11",
+   "when": "pre-market"
+  },
+  {
+   "date": "2024-10-23",
+   "when": "pre-market"
+  },
+  {
+   "date": "2024-07-23",
+   "when": "pre-market"
+  },
+  {
+   "date": "2024-04-30",
+   "when": "pre-market"
+  },
+  {
+   "date": "2024-02-13",
+   "when": "pre-market"
+  },
+  {
+   "date": "2023-10-24",
+   "when": "pre-market"
+  },
+  {
+   "date": "2023-07-26",
+   "when": "pre-market"
+  },
+  {
+   "date": "2023-04-24",
+   "when": "pre-market"
+  },
+  {
+   "date": "2023-02-14",
+   "when": "pre-market"
+  },
+  {
+   "date": "2022-10-25",
+   "when": "pre-market"
+  },
+  {
+   "date": "2022-07-26",
+   "when": "pre-market"
+  },
+  {
+   "date": "2022-04-25",
+   "when": "pre-market"
+  },
+  {
+   "date": "2022-02-10",
+   "when": "pre-market"
+  },
+  {
+   "date": "2021-10-27",
+   "when": "pre-market"
+  },
+  {
+   "date": "2021-07-21",
+   "when": "pre-market"
+  },
+  {
+   "date": "2021-04-19",
+   "when": "pre-market"
+  },
+  {
+   "date": "2021-02-10",
+   "when": "pre-market"
+  },
+  {
+   "date": "2020-10-22",
+   "when": "pre-market"
+  },
+  {
+   "date": "2020-07-21",
+   "when": "pre-market"
+  },
+  {
+   "date": "2020-04-21",
+   "when": "pre-market"
+  },
+  {
+   "date": "2020-01-30",
+   "when": "pre-market"
+  },
+  {
+   "date": "2019-10-18",
+   "when": "pre-market"
+  },
+  {
+   "date": "2019-07-23",
+   "when": "pre-market"
+  },
+  {
+   "date": "2019-04-23",
+   "when": "pre-market"
+  },
+  {
+   "date": "2019-02-14",
+   "when": "pre-market"
+  },
+  {
+   "date": "2018-10-30",
+   "when": "pre-market"
+  },
+  {
+   "date": "2018-07-25",
+   "when": "pre-market"
+  },
+  {
+   "date": "2018-04-24",
+   "when": "pre-market"
+  },
+  {
+   "date": "2018-02-16",
+   "when": "pre-market"
+  },
+  {
+   "date": "2017-10-25",
+   "when": "pre-market"
+  },
+  {
+   "date": "2017-07-26",
+   "when": "pre-market"
+  },
+  {
+   "date": "2017-04-25",
+   "when": "pre-market"
+  },
+  {
+   "date": "2017-02-09",
+   "when": "pre-market"
+  },
+  {
+   "date": "2016-10-26",
+   "when": "pre-market"
+  },
+  {
+   "date": "2016-07-27",
+   "when": "pre-market"
+  },
+  {
+   "date": "2016-04-20",
+   "when": "pre-market"
+  },
+  {
+   "date": "2016-02-09",
+   "when": "pre-market"
+  }
+ ],
+ "DIS": [
+  {
+   "date": "2026-05-06",
+   "when": "pre-market"
+  },
+  {
+   "date": "2026-02-02",
+   "when": "pre-market"
+  },
+  {
+   "date": "2025-11-13",
+   "when": "pre-market"
+  },
+  {
+   "date": "2025-08-06",
+   "when": "pre-market"
+  },
+  {
+   "date": "2025-05-07",
+   "when": "pre-market"
+  },
+  {
+   "date": "2025-02-05",
+   "when": "pre-market"
+  },
+  {
+   "date": "2024-11-14",
+   "when": "pre-market"
+  },
+  {
+   "date": "2024-08-07",
+   "when": "pre-market"
+  },
+  {
+   "date": "2024-05-07",
+   "when": "pre-market"
+  },
+  {
+   "date": "2024-02-07",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-11-08",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-08-09",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-05-10",
+   "when": "post-market"
+  },
+  {
+   "date": "2023-02-08",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-11-08",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-08-10",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-05-11",
+   "when": "post-market"
+  },
+  {
+   "date": "2022-02-09",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-11-10",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-08-12",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-05-13",
+   "when": "post-market"
+  },
+  {
+   "date": "2021-02-11",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-11-12",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-08-04",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-05-05",
+   "when": "post-market"
+  },
+  {
+   "date": "2020-02-04",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-11-07",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-08-06",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-05-08",
+   "when": "post-market"
+  },
+  {
+   "date": "2019-02-05",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-11-08",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-08-07",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-05-08",
+   "when": "post-market"
+  },
+  {
+   "date": "2018-02-06",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-11-09",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-08-08",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-05-09",
+   "when": "post-market"
+  },
+  {
+   "date": "2017-02-07",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-11-10",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-08-09",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-05-10",
+   "when": "post-market"
+  },
+  {
+   "date": "2016-02-09",
+   "when": "post-market"
+  }
+ ]
+}
