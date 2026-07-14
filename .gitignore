@@ -1,0 +1,10 @@
+# NEVER commit credentials
+git.txt
+*.token
+*.pem
+.env
+.env.*
+secrets*
+__pycache__/
+*.pyc
+dmc-paper/ledger.json

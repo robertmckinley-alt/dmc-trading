@@ -1,0 +1,911 @@
+{
+  "config": {
+    "start_equity": 200000.0,
+    "max_drawdown_pct": 10.0,
+    "risk_per_trade_pct": 0.5,
+    "max_concurrent": 4,
+    "max_open_risk_pct": 2.0,
+    "decisive_body_ratio": 0.5,
+    "chop_atr_mult": 0.75,
+    "stop_buffer_atr": 0.25,
+    "warmup_bars": 15
+  },
+  "mode": "backtest",
+  "generated": "2026-07-14T02:40:21.569423Z",
+  "symbols": [
+    "SPY",
+    "QQQ"
+  ],
+  "floor": 180000.0,
+  "trades": [
+    {
+      "side": "long",
+      "level": 722.12,
+      "level_kind": "prior day high",
+      "entry": 732.96,
+      "stop": 719.19,
+      "target": 760.5,
+      "qty": 72.63,
+      "risk_cash": 1000.0,
+      "risk_per_unit": 13.7677,
+      "planned_rr": 2.0,
+      "style": "confirmation",
+      "id": 1,
+      "symbol": "QQQ",
+      "signal_date": "2026-05-26",
+      "entry_date": "2026-05-27",
+      "status": "closed",
+      "exit": 719.19,
+      "r": -1.0,
+      "pl": -1000.12,
+      "exit_date": "2026-06-05",
+      "reason": "stop hit"
+    },
+    {
+      "side": "long",
+      "level": 752.13,
+      "level_kind": "prior week high",
+      "entry": 755.9,
+      "stop": 750.4,
+      "target": 766.91,
+      "qty": 181.69,
+      "risk_cash": 1000.0,
+      "risk_per_unit": 5.5039,
+      "planned_rr": 2.0,
+      "style": "confirmation",
+      "id": 2,
+      "symbol": "SPY",
+      "signal_date": "2026-05-28",
+      "entry_date": "2026-05-29",
+      "status": "closed",
+      "exit": 750.4,
+      "r": -1.0,
+      "pl": -999.29,
+      "exit_date": "2026-06-05",
+      "reason": "stop hit"
+    },
+    {
+      "side": "short",
+      "level": 751.47,
+      "level_kind": "prior day low",
+      "entry": 743.36,
+      "stop": 753.26,
+      "target": 723.57,
+      "qty": 100.04,
+      "risk_cash": 990.0,
+      "risk_per_unit": 9.8964,
+      "planned_rr": 2.0,
+      "style": "confirmation",
+      "id": 3,
+      "symbol": "SPY",
+      "signal_date": "2026-06-05",
+      "entry_date": "2026-06-08",
+      "status": "closed",
+      "exit": 723.57,
+      "r": 2.0,
+      "pl": 1979.79,
+      "exit_date": "2026-06-09",
+      "reason": "target hit"
+    },
+    {
+      "side": "short",
+      "level": 732.62,
+      "level_kind": "prior day low",
+      "entry": 717.81,
+      "stop": 735.56,
+      "target": 682.31,
+      "qty": 55.78,
+      "risk_cash": 990.0,
+      "risk_per_unit": 17.7477,
+      "planned_rr": 2.0,
+      "style": "confirmation",
+      "id": 4,
+      "symbol": "QQQ",
+      "signal_date": "2026-06-05",
+      "entry_date": "2026-06-08",
+      "status": "closed",
+      "exit": 735.56,
+      "r": -1.0,
+      "pl": -990.1,
+      "exit_date": "2026-06-15",
+      "reason": "stop hit"
+    },
+    {
+      "side": "short",
+      "level": 737.38,
+      "level_kind": "prior day low",
+      "entry": 735.19,
+      "stop": 741.67,
+      "target": 686.37,
+      "qty": 153.65,
+      "risk_cash": 994.95,
+      "risk_per_unit": 6.4754,
+      "planned_rr": 7.54,
+      "style": "confirmation",
+      "id": 6,
+      "symbol": "QQQ",
+      "signal_date": "2026-06-16",
+      "entry_date": "2026-06-17",
+      "status": "closed",
+      "exit": 741.67,
+      "r": -1.0,
+      "pl": -995.65,
+      "exit_date": "2026-06-18",
+      "reason": "stop hit"
+    },
+    {
+      "side": "long",
+      "level": 725.43,
+      "level_kind": "prior day close",
+      "entry": 740.71,
+      "stop": 723.11,
+      "target": 758.31,
+      "qty": 56.83,
+      "risk_cash": 999.9,
+      "risk_per_unit": 17.5952,
+      "planned_rr": 1.0,
+      "style": "confirmation",
+      "id": 5,
+      "symbol": "SPY",
+      "signal_date": "2026-06-11",
+      "entry_date": "2026-06-12",
+      "status": "closed",
+      "exit": 723.11,
+      "r": -1.0,
+      "pl": -1000.21,
+      "exit_date": "2026-06-26",
+      "reason": "stop hit"
+    },
+    {
+      "side": "long",
+      "level": 741.56,
+      "level_kind": "prior day high",
+      "entry": 745.0,
+      "stop": 738.77,
+      "target": 757.47,
+      "qty": 158.02,
+      "risk_cash": 984.97,
+      "risk_per_unit": 6.233,
+      "planned_rr": 2.0,
+      "style": "confirmation",
+      "id": 7,
+      "symbol": "SPY",
+      "signal_date": "2026-06-30",
+      "entry_date": "2026-07-01",
+      "status": "open",
+      "exit": null,
+      "r": null,
+      "pl": null
+    }
+  ],
+  "curve": [
+    {
+      "date": "2026-04-30",
+      "equity": 200000.0,
+      "realized": 200000.0,
+      "peak": 200000.0,
+      "dd_pct": 0.0,
+      "open": 0,
+      "halted": false
+    },
+    {
+      "date": "2026-05-01",
+      "equity": 200000.0,
+      "realized": 200000.0,
+      "peak": 200000.0,
+      "dd_pct": 0.0,
+      "open": 0,
+      "halted": false
+    },
+    {
+      "date": "2026-05-04",
+      "equity": 200000.0,
+      "realized": 200000.0,
+      "peak": 200000.0,
+      "dd_pct": 0.0,
+      "open": 0,
+      "halted": false
+    },
+    {
+      "date": "2026-05-05",
+      "equity": 200000.0,
+      "realized": 200000.0,
+      "peak": 200000.0,
+      "dd_pct": 0.0,
+      "open": 0,
+      "halted": false
+    },
+    {
+      "date": "2026-05-06",
+      "equity": 200000.0,
+      "realized": 200000.0,
+      "peak": 200000.0,
+      "dd_pct": 0.0,
+      "open": 0,
+      "halted": false
+    },
+    {
+      "date": "2026-05-07",
+      "equity": 200000.0,
+      "realized": 200000.0,
+      "peak": 200000.0,
+      "dd_pct": 0.0,
+      "open": 0,
+      "halted": false
+    },
+    {
+      "date": "2026-05-08",
+      "equity": 200000.0,
+      "realized": 200000.0,
+      "peak": 200000.0,
+      "dd_pct": 0.0,
+      "open": 0,
+      "halted": false
+    },
+    {
+      "date": "2026-05-11",
+      "equity": 200000.0,
+      "realized": 200000.0,
+      "peak": 200000.0,
+      "dd_pct": 0.0,
+      "open": 0,
+      "halted": false
+    },
+    {
+      "date": "2026-05-12",
+      "equity": 200000.0,
+      "realized": 200000.0,
+      "peak": 200000.0,
+      "dd_pct": 0.0,
+      "open": 0,
+      "halted": false
+    },
+    {
+      "date": "2026-05-13",
+      "equity": 200000.0,
+      "realized": 200000.0,
+      "peak": 200000.0,
+      "dd_pct": 0.0,
+      "open": 0,
+      "halted": false
+    },
+    {
+      "date": "2026-05-14",
+      "equity": 200000.0,
+      "realized": 200000.0,
+      "peak": 200000.0,
+      "dd_pct": 0.0,
+      "open": 0,
+      "halted": false
+    },
+    {
+      "date": "2026-05-15",
+      "equity": 200000.0,
+      "realized": 200000.0,
+      "peak": 200000.0,
+      "dd_pct": 0.0,
+      "open": 0,
+      "halted": false
+    },
+    {
+      "date": "2026-05-18",
+      "equity": 200000.0,
+      "realized": 200000.0,
+      "peak": 200000.0,
+      "dd_pct": 0.0,
+      "open": 0,
+      "halted": false
+    },
+    {
+      "date": "2026-05-19",
+      "equity": 200000.0,
+      "realized": 200000.0,
+      "peak": 200000.0,
+      "dd_pct": 0.0,
+      "open": 0,
+      "halted": false
+    },
+    {
+      "date": "2026-05-20",
+      "equity": 200000.0,
+      "realized": 200000.0,
+      "peak": 200000.0,
+      "dd_pct": 0.0,
+      "open": 0,
+      "halted": false
+    },
+    {
+      "date": "2026-05-21",
+      "equity": 200000.0,
+      "realized": 200000.0,
+      "peak": 200000.0,
+      "dd_pct": 0.0,
+      "open": 0,
+      "halted": false
+    },
+    {
+      "date": "2026-05-22",
+      "equity": 200000.0,
+      "realized": 200000.0,
+      "peak": 200000.0,
+      "dd_pct": 0.0,
+      "open": 0,
+      "halted": false
+    },
+    {
+      "date": "2026-05-26",
+      "equity": 200000.0,
+      "realized": 200000.0,
+      "peak": 200000.0,
+      "dd_pct": 0.0,
+      "open": 1,
+      "halted": false
+    },
+    {
+      "date": "2026-05-27",
+      "equity": 199745.07,
+      "realized": 200000.0,
+      "peak": 200000.0,
+      "dd_pct": 0.13,
+      "open": 1,
+      "halted": false
+    },
+    {
+      "date": "2026-05-28",
+      "equity": 200191.74,
+      "realized": 200000.0,
+      "peak": 200191.74,
+      "dd_pct": 0.0,
+      "open": 2,
+      "halted": false
+    },
+    {
+      "date": "2026-05-29",
+      "equity": 200493.95,
+      "realized": 200000.0,
+      "peak": 200493.95,
+      "dd_pct": 0.0,
+      "open": 2,
+      "halted": false
+    },
+    {
+      "date": "2026-06-01",
+      "equity": 201189.98,
+      "realized": 200000.0,
+      "peak": 201189.98,
+      "dd_pct": 0.0,
+      "open": 2,
+      "halted": false
+    },
+    {
+      "date": "2026-06-02",
+      "equity": 201625.52,
+      "realized": 200000.0,
+      "peak": 201625.52,
+      "dd_pct": 0.0,
+      "open": 2,
+      "halted": false
+    },
+    {
+      "date": "2026-06-03",
+      "equity": 200515.48,
+      "realized": 200000.0,
+      "peak": 201625.52,
+      "dd_pct": 0.55,
+      "open": 2,
+      "halted": false
+    },
+    {
+      "date": "2026-06-04",
+      "equity": 200771.83,
+      "realized": 200000.0,
+      "peak": 201625.52,
+      "dd_pct": 0.42,
+      "open": 2,
+      "halted": false
+    },
+    {
+      "date": "2026-06-05",
+      "equity": 198000.59,
+      "realized": 198000.59,
+      "peak": 201625.52,
+      "dd_pct": 1.8,
+      "open": 2,
+      "halted": false
+    },
+    {
+      "date": "2026-06-08",
+      "equity": 198511.81,
+      "realized": 198000.59,
+      "peak": 201625.52,
+      "dd_pct": 1.54,
+      "open": 2,
+      "halted": false
+    },
+    {
+      "date": "2026-06-09",
+      "equity": 200537.07,
+      "realized": 199980.38,
+      "peak": 201625.52,
+      "dd_pct": 0.54,
+      "open": 1,
+      "halted": false
+    },
+    {
+      "date": "2026-06-10",
+      "equity": 201325.8,
+      "realized": 199980.38,
+      "peak": 201625.52,
+      "dd_pct": 0.15,
+      "open": 1,
+      "halted": false
+    },
+    {
+      "date": "2026-06-11",
+      "equity": 200018.87,
+      "realized": 199980.38,
+      "peak": 201625.52,
+      "dd_pct": 0.8,
+      "open": 2,
+      "halted": false
+    },
+    {
+      "date": "2026-06-12",
+      "equity": 199842.58,
+      "realized": 199980.38,
+      "peak": 201625.52,
+      "dd_pct": 0.88,
+      "open": 2,
+      "halted": false
+    },
+    {
+      "date": "2026-06-15",
+      "equity": 199792.73,
+      "realized": 198990.29,
+      "peak": 201625.52,
+      "dd_pct": 0.91,
+      "open": 1,
+      "halted": false
+    },
+    {
+      "date": "2026-06-16",
+      "equity": 199536.99,
+      "realized": 198990.29,
+      "peak": 201625.52,
+      "dd_pct": 1.04,
+      "open": 2,
+      "halted": false
+    },
+    {
+      "date": "2026-06-17",
+      "equity": 200952.78,
+      "realized": 198990.29,
+      "peak": 201625.52,
+      "dd_pct": 0.33,
+      "open": 2,
+      "halted": false
+    },
+    {
+      "date": "2026-06-18",
+      "equity": 198337.32,
+      "realized": 197994.63,
+      "peak": 201625.52,
+      "dd_pct": 1.63,
+      "open": 1,
+      "halted": false
+    },
+    {
+      "date": "2026-06-22",
+      "equity": 198203.77,
+      "realized": 197994.63,
+      "peak": 201625.52,
+      "dd_pct": 1.7,
+      "open": 1,
+      "halted": false
+    },
+    {
+      "date": "2026-06-23",
+      "equity": 197589.44,
+      "realized": 197994.63,
+      "peak": 201625.52,
+      "dd_pct": 2.0,
+      "open": 1,
+      "halted": false
+    },
+    {
+      "date": "2026-06-24",
+      "equity": 197570.11,
+      "realized": 197994.63,
+      "peak": 201625.52,
+      "dd_pct": 2.01,
+      "open": 1,
+      "halted": false
+    },
+    {
+      "date": "2026-06-25",
+      "equity": 197630.35,
+      "realized": 197994.63,
+      "peak": 201625.52,
+      "dd_pct": 1.98,
+      "open": 1,
+      "halted": false
+    },
+    {
+      "date": "2026-06-26",
+      "equity": 196994.43,
+      "realized": 196994.43,
+      "peak": 201625.52,
+      "dd_pct": 2.3,
+      "open": 0,
+      "halted": false
+    },
+    {
+      "date": "2026-06-29",
+      "equity": 196994.43,
+      "realized": 196994.43,
+      "peak": 201625.52,
+      "dd_pct": 2.3,
+      "open": 0,
+      "halted": false
+    },
+    {
+      "date": "2026-06-30",
+      "equity": 196994.43,
+      "realized": 196994.43,
+      "peak": 201625.52,
+      "dd_pct": 2.3,
+      "open": 1,
+      "halted": false
+    },
+    {
+      "date": "2026-07-01",
+      "equity": 197114.52,
+      "realized": 196994.43,
+      "peak": 201625.52,
+      "dd_pct": 2.24,
+      "open": 1,
+      "halted": false
+    },
+    {
+      "date": "2026-07-02",
+      "equity": 196959.66,
+      "realized": 196994.43,
+      "peak": 201625.52,
+      "dd_pct": 2.31,
+      "open": 1,
+      "halted": false
+    },
+    {
+      "date": "2026-07-06",
+      "equity": 197986.79,
+      "realized": 196994.43,
+      "peak": 201625.52,
+      "dd_pct": 1.8,
+      "open": 1,
+      "halted": false
+    },
+    {
+      "date": "2026-07-07",
+      "equity": 197422.66,
+      "realized": 196994.43,
+      "peak": 201625.52,
+      "dd_pct": 2.08,
+      "open": 1,
+      "halted": false
+    },
+    {
+      "date": "2026-07-08",
+      "equity": 197057.63,
+      "realized": 196994.43,
+      "peak": 201625.52,
+      "dd_pct": 2.27,
+      "open": 1,
+      "halted": false
+    },
+    {
+      "date": "2026-07-09",
+      "equity": 198054.74,
+      "realized": 196994.43,
+      "peak": 201625.52,
+      "dd_pct": 1.77,
+      "open": 1,
+      "halted": false
+    },
+    {
+      "date": "2026-07-10",
+      "equity": 198566.73,
+      "realized": 196994.43,
+      "peak": 201625.52,
+      "dd_pct": 1.52,
+      "open": 1,
+      "halted": false
+    },
+    {
+      "date": "2026-07-13",
+      "equity": 197653.37,
+      "realized": 196994.43,
+      "peak": 201625.52,
+      "dd_pct": 1.97,
+      "open": 1,
+      "halted": false
+    }
+  ],
+  "daily": [
+    {
+      "date": "2026-04-30",
+      "closed_today": [],
+      "opened_today": []
+    },
+    {
+      "date": "2026-05-01",
+      "closed_today": [],
+      "opened_today": []
+    },
+    {
+      "date": "2026-05-04",
+      "closed_today": [],
+      "opened_today": []
+    },
+    {
+      "date": "2026-05-05",
+      "closed_today": [],
+      "opened_today": []
+    },
+    {
+      "date": "2026-05-06",
+      "closed_today": [],
+      "opened_today": []
+    },
+    {
+      "date": "2026-05-07",
+      "closed_today": [],
+      "opened_today": []
+    },
+    {
+      "date": "2026-05-08",
+      "closed_today": [],
+      "opened_today": []
+    },
+    {
+      "date": "2026-05-11",
+      "closed_today": [],
+      "opened_today": []
+    },
+    {
+      "date": "2026-05-12",
+      "closed_today": [],
+      "opened_today": []
+    },
+    {
+      "date": "2026-05-13",
+      "closed_today": [],
+      "opened_today": []
+    },
+    {
+      "date": "2026-05-14",
+      "closed_today": [],
+      "opened_today": []
+    },
+    {
+      "date": "2026-05-15",
+      "closed_today": [],
+      "opened_today": []
+    },
+    {
+      "date": "2026-05-18",
+      "closed_today": [],
+      "opened_today": []
+    },
+    {
+      "date": "2026-05-19",
+      "closed_today": [],
+      "opened_today": []
+    },
+    {
+      "date": "2026-05-20",
+      "closed_today": [],
+      "opened_today": []
+    },
+    {
+      "date": "2026-05-21",
+      "closed_today": [],
+      "opened_today": []
+    },
+    {
+      "date": "2026-05-22",
+      "closed_today": [],
+      "opened_today": []
+    },
+    {
+      "date": "2026-05-26",
+      "closed_today": [],
+      "opened_today": [
+        1
+      ]
+    },
+    {
+      "date": "2026-05-27",
+      "closed_today": [],
+      "opened_today": []
+    },
+    {
+      "date": "2026-05-28",
+      "closed_today": [],
+      "opened_today": [
+        2
+      ]
+    },
+    {
+      "date": "2026-05-29",
+      "closed_today": [],
+      "opened_today": []
+    },
+    {
+      "date": "2026-06-01",
+      "closed_today": [],
+      "opened_today": []
+    },
+    {
+      "date": "2026-06-02",
+      "closed_today": [],
+      "opened_today": []
+    },
+    {
+      "date": "2026-06-03",
+      "closed_today": [],
+      "opened_today": []
+    },
+    {
+      "date": "2026-06-04",
+      "closed_today": [],
+      "opened_today": []
+    },
+    {
+      "date": "2026-06-05",
+      "closed_today": [
+        1,
+        2
+      ],
+      "opened_today": [
+        3,
+        4
+      ]
+    },
+    {
+      "date": "2026-06-08",
+      "closed_today": [],
+      "opened_today": []
+    },
+    {
+      "date": "2026-06-09",
+      "closed_today": [
+        3
+      ],
+      "opened_today": []
+    },
+    {
+      "date": "2026-06-10",
+      "closed_today": [],
+      "opened_today": []
+    },
+    {
+      "date": "2026-06-11",
+      "closed_today": [],
+      "opened_today": [
+        5
+      ]
+    },
+    {
+      "date": "2026-06-12",
+      "closed_today": [],
+      "opened_today": []
+    },
+    {
+      "date": "2026-06-15",
+      "closed_today": [
+        4
+      ],
+      "opened_today": []
+    },
+    {
+      "date": "2026-06-16",
+      "closed_today": [],
+      "opened_today": [
+        6
+      ]
+    },
+    {
+      "date": "2026-06-17",
+      "closed_today": [],
+      "opened_today": []
+    },
+    {
+      "date": "2026-06-18",
+      "closed_today": [
+        6
+      ],
+      "opened_today": []
+    },
+    {
+      "date": "2026-06-22",
+      "closed_today": [],
+      "opened_today": []
+    },
+    {
+      "date": "2026-06-23",
+      "closed_today": [],
+      "opened_today": []
+    },
+    {
+      "date": "2026-06-24",
+      "closed_today": [],
+      "opened_today": []
+    },
+    {
+      "date": "2026-06-25",
+      "closed_today": [],
+      "opened_today": []
+    },
+    {
+      "date": "2026-06-26",
+      "closed_today": [
+        5
+      ],
+      "opened_today": []
+    },
+    {
+      "date": "2026-06-29",
+      "closed_today": [],
+      "opened_today": []
+    },
+    {
+      "date": "2026-06-30",
+      "closed_today": [],
+      "opened_today": [
+        7
+      ]
+    },
+    {
+      "date": "2026-07-01",
+      "closed_today": [],
+      "opened_today": []
+    },
+    {
+      "date": "2026-07-02",
+      "closed_today": [],
+      "opened_today": []
+    },
+    {
+      "date": "2026-07-06",
+      "closed_today": [],
+      "opened_today": []
+    },
+    {
+      "date": "2026-07-07",
+      "closed_today": [],
+      "opened_today": []
+    },
+    {
+      "date": "2026-07-08",
+      "closed_today": [],
+      "opened_today": []
+    },
+    {
+      "date": "2026-07-09",
+      "closed_today": [],
+      "opened_today": []
+    },
+    {
+      "date": "2026-07-10",
+      "closed_today": [],
+      "opened_today": []
+    },
+    {
+      "date": "2026-07-13",
+      "closed_today": [],
+      "opened_today": []
+    }
+  ],
+  "final_equity": 197653.37,
+  "halted": false
+}
