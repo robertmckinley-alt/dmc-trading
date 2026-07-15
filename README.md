@@ -52,6 +52,7 @@ suspicion that implies.
 - [OVERNIGHT.md](OVERNIGHT.md) — the overnight effect: real anomaly, dead strategy
 - [OVERNIGHT-STOCKS.md](OVERNIGHT-STOCKS.md) — does it work on stocks? No, worse. Earnings decomposition.
 - [CONGRESS-COPY-TRADING.md](CONGRESS-COPY-TRADING.md) — the "Pelosi trade": no alpha, it's tech beta
+- [THE-PLAN.md](THE-PLAN.md) — what actually makes sense and money, after everything else failed
 - [BACKTEST.md](BACKTEST.md) — how to backtest without fooling yourself
 
 ## Layout
